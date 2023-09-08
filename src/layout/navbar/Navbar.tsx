@@ -1,5 +1,5 @@
-import "./navigation.css"
-import { FaRegMoon } from 'react-icons/fa'
+import "./navbar.css"
+import Theme from "../../components/theme/Theme"
 
 function Navigation() {
   return (
@@ -10,8 +10,9 @@ function Navigation() {
         <li><a href="">O mně</a></li>
         <li><a href="">Projekty</a></li>
         <li><a href="">Kontakt</a></li>
-        <li><FaRegMoon /></li>
       </ul>
+
+      <Theme />
     </nav>
   )
 }

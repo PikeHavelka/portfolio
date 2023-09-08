@@ -1,6 +1,6 @@
 import "./header.css"
 import PavelHavelka from "../../images/PavelHavelka.png"
-import Navigation from "../navbar/Navigation"
+import Navbar from "../navbar/Navbar"
 import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { SiJavascript } from 'react-icons/si'
@@ -11,7 +11,7 @@ import { FaReact } from 'react-icons/fa'
 function Header() {
   return (
     <header>
-      <Navigation />
+      <Navbar />
 
       <div className="introduce container">
         <div className="text-wrapper">
