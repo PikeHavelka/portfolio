@@ -31,11 +31,11 @@ nav ul li {
   position: relative;
 }
 
-nav ul li:hover::after {
+nav ul li:hover:not(:last-child):after {
   width: 100%;
 }
 
-nav ul li::after {
+nav ul li:not(:last-child)::after {
   content: "";
   position: absolute;
   

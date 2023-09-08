@@ -5,8 +5,13 @@ import { LiaSun } from 'react-icons/lia'
 function Theme() {
   return (
     <div className="theme-icons container">
-      <button><FaRegMoon /></button>
-      <button><LiaSun /></button>
+      <button>
+        <FaRegMoon className="moon-icon"/>
+      </button>
+
+      <button>
+        <LiaSun className="sun-icon"/>
+      </button>
     </div>
   )
 }

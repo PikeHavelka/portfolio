@@ -10,9 +10,9 @@ function Navigation() {
         <li><a href="">O mně</a></li>
         <li><a href="">Projekty</a></li>
         <li><a href="">Kontakt</a></li>
+        <li><Theme /></li>
       </ul>
 
-      <Theme />
     </nav>
   )
 }
