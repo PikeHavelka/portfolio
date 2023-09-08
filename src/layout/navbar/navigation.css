@@ -1,0 +1,52 @@
+/* Navigation */
+nav {
+  position: fixed;
+
+  height: 2.5rem;
+  min-width: 100%;
+
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+  gap: 3.5rem;
+
+  line-height: 2.5rem;
+  list-style: none;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+/**********************************************/
+
+/* Underline decoration (on hover) */
+nav ul li {
+  position: relative;
+}
+
+nav ul li:not(:last-child):hover::after {
+  width: 100%;
+}
+
+nav ul li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  
+  left: 0;
+  bottom: 7px;
+  
+  width: 0%;
+  height: 2px;
+  
+  background-color: var(--general-design-color);
+  
+  transition: 250ms linear;
+}
+/**********************************************/
