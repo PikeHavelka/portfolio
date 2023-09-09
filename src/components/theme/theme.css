@@ -16,7 +16,13 @@
   color: var(--general-text);
 }
 
-.hide {
+.theme-icons .sun-icon {
+  font-size: 1.3rem;
+}
+/**********************************************/
+
+/* Hide icon when click on theme */
+.theme-icons .hide {
   display: none;
 }
 /**********************************************/

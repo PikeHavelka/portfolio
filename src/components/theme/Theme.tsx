@@ -4,10 +4,11 @@ import { LiaSun } from 'react-icons/lia'
 import { useState } from "react"
 
 function Theme() {
-  const body = document.body
 
   const [isDark, setIsDark] = useState(false)
+  const body = document.body
 
+  // Change theme
   const changeTheme = (themeIcon: React.MouseEvent<HTMLButtonElement>) => {
     const btnID = themeIcon.currentTarget.id
 
@@ -20,14 +21,23 @@ function Theme() {
       setIsDark(false)
     }
   }
+  /**********************************************/
 
   return (
     <div className="theme-icons container">
-      <button onClick={(e) => changeTheme(e)} id="btn-moon" className={`${isDark ? "hide" : "show"}`}>
+      <button
+        onClick={(e) => changeTheme(e)}
+        id="btn-moon"
+        className={`${isDark ? "hide" : "show"}`}
+      >
         <FaRegMoon className="moon-icon" />
       </button>
 
-      <button onClick={(e) => changeTheme(e)} id="btn-sun" className={`${isDark ? "show" : "hide"}`}>
+      <button
+        onClick={(e) => changeTheme(e)}
+        id="btn-sun"
+        className={`${isDark ? "show" : "hide"}`}
+      >
         <LiaSun className="sun-icon" />
       </button>
     </div>
