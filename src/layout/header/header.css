@@ -23,6 +23,7 @@ header {
 .introduce .text-wrapper {
   max-width: 25rem;
   border-left: 5px solid var(--general-design-color);
+  color: var(--navbar-title-text);
 }
 
 .introduce .title {
@@ -46,6 +47,7 @@ header {
 /* Icons */
 .introduce .tech-lang-wrapper {
   margin-top: 2.5rem;
+  color: var(--general-text);
 }
 
 .introduce .icons-title {
@@ -78,6 +80,7 @@ header {
 
 .introduce .icons .ts-icon {
   color: darkblue;
+  background-color: white;
 }
 
 .introduce .icons .sass-icon {

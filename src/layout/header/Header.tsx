@@ -1,12 +1,8 @@
 import "./header.css"
 import PavelHavelka from "../../images/PavelHavelka.png"
 import Navbar from "../navbar/Navbar"
-import { FaHtml5 } from 'react-icons/fa'
-import { FaCss3Alt } from 'react-icons/fa'
-import { SiJavascript } from 'react-icons/si'
-import { SiTypescript } from 'react-icons/si'
-import { FaSass } from 'react-icons/fa'
-import { FaReact } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaSass, FaReact } from 'react-icons/fa'
+import { SiJavascript, SiTypescript } from 'react-icons/si'
 
 function Header() {
   return (
