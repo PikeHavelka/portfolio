@@ -1,26 +1,39 @@
 import "./theme.css"
 import { FaRegMoon } from 'react-icons/fa'
 import { LiaSun } from 'react-icons/lia'
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 function Theme() {
 
+  // UState - Change class on btn (hide/show)
   const [isDark, setIsDark] = useState(false)
   const body = document.body
 
-  // Change theme
-  const changeTheme = (themeIcon: React.MouseEvent<HTMLButtonElement>) => {
-    const btnID = themeIcon.currentTarget.id
-
-    if (btnID === "btn-moon") {
-      body?.classList.add("light")
+  // Change theme when press btn
+  const changeTheme = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    if (e.currentTarget.id === "btn-moon") {
+      body?.setAttribute("data-theme", "dark")
       setIsDark(true)
+      localStorage.setItem('data-theme', 'dark')
     }
     else {
-      body?.classList.remove("light")
+      body?.setAttribute("data-theme", "light")
       setIsDark(false)
+      localStorage.setItem('data-theme', 'light')
     }
   }
+  /**********************************************/
+
+  // Remember theme
+  useEffect(() => {
+    if (localStorage.getItem("data-theme") === "dark") {
+      body?.setAttribute("data-theme", "dark")
+      setIsDark(true)
+    } else {
+      body?.setAttribute("data-theme", "light")
+      setIsDark(false)
+    }
+  }, [])
   /**********************************************/
 
   return (

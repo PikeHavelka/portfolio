@@ -10,17 +10,20 @@ body {
   font-family: 'Poppins', sans-serif;
 
   background-color: var(--light-theme-bg);
+}
 
+[data-theme="dark"] {
+  --general-text: white;
+  --light-theme-bg: black;
+  --navbar-title-text: white;
+  --general-design-color: rgba(131, 3, 250, 0.774);
+}
+
+[data-theme="light"] {
   --general-design-color: rgba(131, 3, 250, 0.774);
   --general-text: rgba(0, 0, 0, 0.7);
   --light-theme-bg: rgba(255, 255, 255, 0.877);
   --navbar-title-text: black;
-}
-
-body.light {
-  --general-text: white;
-  --light-theme-bg: black;
-  --navbar-title-text: white;
 }
 
 h1, h2, h3 {
