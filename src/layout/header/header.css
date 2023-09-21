@@ -2,6 +2,7 @@
 header {
   height: 100vh;
 }
+
 /**********************************************/
 
 /* Introduce */
@@ -16,7 +17,7 @@ header {
   transform: translateY(-50%);
 }
 
-.introduce > * {
+.introduce>* {
   flex: 1 1 50%;
 }
 
@@ -42,54 +43,80 @@ header {
   background-color: white;
   box-shadow: 1px 1px 10px var(--general-text);
 }
+
 /**********************************************/
 
 /* Icons */
 .introduce .tech-lang-wrapper {
-  margin-top: 2.5rem;
+  margin-top: 5rem;
   color: var(--general-text);
 }
 
 .introduce .icons-title {
   text-align: center;
   font-size: .8rem;
+  color: var(--navbar-title-text);
+  margin-bottom: 1rem;
 }
 
 .introduce .icons {
   text-align: center;
-  font-size: 2.2rem;
 }
 
 .introduce .icons .icon {
-  margin-right: 5rem;
+  margin-right: 4.5rem;
   vertical-align: middle;
 }
 
-.introduce .icons .html-icon {
-  color: orange;
-}
-
-.introduce .icons .css-icon {
-  color: blue;
-}
-
-.introduce .icons .js-icon {
-  color: rgb(255, 255, 0);
-  background-color: black;
-}
-
-.introduce .icons .ts-icon {
-  color: darkblue;
-  background-color: white;
-}
-
-.introduce .icons .sass-icon {
-  color: pink;
-}
-
-.introduce .icons .react-icon {
-  color: aqua;
+.introduce .icons a > * {
+  animation: rotateIn 1s;
+  cursor: pointer;
 }
 /**********************************************/
 
+/* Animation for icons */
+.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
 
+@-webkit-keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+/**********************************************/
