@@ -1,4 +1,7 @@
 import "./myProjects.css"
+import VympyArt from "../../images/VympyArt.png"
+import EyE from "../../icons/icons8-show-50.png"
+import GitHub from "../../icons/icons8-github-50.png"
 
 function MyProjects() {
   return (
@@ -12,7 +15,19 @@ function MyProjects() {
             <div className="vympy-art-bg">
               <div className="vympy-art container">
                 <div className="iframe-wrapper">
-                  <iframe src="https://pike.dev-null.xyz/"></iframe>
+                  <img src={VympyArt} alt="Obrázek webové stránky" />
+
+                  <div className="links">
+                    <a href="https://pike.dev-null.xyz/">
+                      <img className="show-demo" src={EyE} alt="Ikonka oka" />
+                      Demo
+                    </a>
+
+                    <a href="https://github.com/PikeHavelka/VympyArt">
+                      <img className="show-code" src={GitHub} alt="Ikonka GitHub" />
+                      Code
+                    </a>
+                  </div>
                 </div>
 
                 <div className="description">
@@ -32,7 +47,19 @@ function MyProjects() {
           <div className="pod-tlakem-bg">
             <div className="pod-tlakem container">
               <div className="iframe-wrapper">
-                <iframe src="https://pike01.dev-null.xyz/"></iframe>
+                <img src={VympyArt} alt="Obrázek webové stránky" />
+
+                <div className="links">
+                    <a href="https://pike.dev-null.xyz/">
+                      <img className="show-demo" src={EyE} alt="Ikonka oka" />
+                      Demo
+                    </a>
+
+                    <a href="https://github.com/PikeHavelka/VympyArt">
+                      <img className="show-code" src={GitHub} alt="Ikonka GitHub" />
+                      Code
+                    </a>
+                  </div>
               </div>
 
               <div className="description">
@@ -52,7 +79,19 @@ function MyProjects() {
           <div className="dice-game-bg">
             <div className="dice-game container">
               <div className="iframe-wrapper">
-                <iframe src="https://pike01.dev-null.xyz/"></iframe>
+                <img src={VympyArt} alt="Obrázek webové stránky" />
+
+                <div className="links">
+                    <a href="https://pike.dev-null.xyz/">
+                      <img className="show-demo" src={EyE} alt="Ikonka oka" />
+                      Demo
+                    </a>
+
+                    <a href="https://github.com/PikeHavelka/VympyArt">
+                      <img className="show-code" src={GitHub} alt="Ikonka GitHub" />
+                      Code
+                    </a>
+                  </div>
               </div>
 
               <div className="description">

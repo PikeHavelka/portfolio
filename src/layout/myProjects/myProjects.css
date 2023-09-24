@@ -16,25 +16,45 @@
   margin-bottom: 2rem;
 }
 
-.my-projects .vympy-art-bg {
-  background-color: rgba(10, 169, 255, 0.5);
-  padding: 2rem 0;
+/* .my-projects .vympy-art-bg {
+  padding: 2rem 0 1rem;
   margin-bottom: 2rem;
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
 }
 
 .my-projects .pod-tlakem-bg {
-  background-color: black;
   padding: 2rem 0;
   margin-bottom: 2rem;
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
 }
 
 .my-projects .dice-game-bg {
-  background-color: rgba(10, 169, 255, 0.5);
   padding: 5rem 0;
   margin-bottom: 2rem;
-  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
+} */
+
+.my-projects .links {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.my-projects .links a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.my-projects .vympy-art img,
+.my-projects .pod-tlakem img,
+.my-projects .dice-game img {
+  max-width: 15rem;
+  vertical-align: middle;
+}
+
+.my-projects .vympy-art .show-code,
+.my-projects .vympy-art .show-demo,
+.my-projects .pod-tlakem .show-code,
+.my-projects .pod-tlakem .show-demo,
+.my-projects .dice-game .show-code,
+.my-projects .dice-game .show-demo {
+  max-width: 1.5rem;
+  padding-right: .2rem;
 }
 
 .my-projects .vympy-art,
@@ -49,10 +69,6 @@
   flex: 1 1 50%;
   padding: 5rem;
   color: var(--general-text);
-}
-
-.my-projects .pod-tlakem .description {
-  color: white;
 }
 
 .my-projects .description span {
