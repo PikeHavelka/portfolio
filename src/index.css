@@ -12,18 +12,24 @@ body {
   background-color: var(--light-theme-bg);
 }
 
+/* .color1 {color: #140f0b;}
+.color2 {color: #0e2e56;}
+.color3 {color: #0966b1;}
+.color4 {color: #08a8ff;}
+.color5 {color: #08f6ff;} */
+
 [data-theme="dark"] {
   --general-text: white;
-  --light-theme-bg: black;
+  --light-theme-bg: #140f0b;
   --navbar-title-text: white;
-  --general-design-color: rgba(131, 3, 250, 0.774);
+  --general-design-color: #08a8ff;
 }
 
 [data-theme="light"] {
-  --general-design-color: rgba(131, 3, 250, 0.774);
-  --general-text: rgba(0, 0, 0, 0.7);
+  --general-design-color: #08a8ff;
+  --general-text: #140f0b;
   --light-theme-bg: rgba(255, 255, 255, 0.877);
-  --navbar-title-text: black;
+  --navbar-title-text: #140f0b;
 }
 
 h1, h2, h3 {

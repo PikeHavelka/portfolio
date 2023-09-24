@@ -1,0 +1,125 @@
+/* MyProjects */
+/* .my-projects {
+  background-color: #0966b1;
+} */
+
+/**********************************************/
+
+/* Web projects wrapper */
+.my-projects .title {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.my-projects h3 {
+  margin-bottom: 2rem;
+}
+
+.my-projects .vympy-art-bg {
+  background-color: rgba(10, 169, 255, 0.5);
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
+}
+
+.my-projects .pod-tlakem-bg {
+  background-color: black;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
+}
+
+.my-projects .dice-game-bg {
+  background-color: rgba(10, 169, 255, 0.5);
+  padding: 5rem 0;
+  margin-bottom: 2rem;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
+}
+
+.my-projects .vympy-art,
+.my-projects .pod-tlakem,
+.my-projects .dice-game {
+  display: flex;
+  justify-content: center;
+}
+
+.my-projects .description {
+  position: relative;
+  flex: 1 1 50%;
+  padding: 5rem;
+  color: var(--general-text);
+}
+
+.my-projects .pod-tlakem .description {
+  color: white;
+}
+
+.my-projects .description span {
+  color: #0966b1;
+}
+
+.my-projects .iframe-wrapper {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.my-projects iframe {
+  height: 25rem;
+  width: 25rem;
+
+  transform: scale(1.04);
+}
+
+/**********************************************/
+
+/* Design squares  */
+.my-projects .square-1 {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+
+  width: 50px;
+  height: 50px;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+  z-index: 1;
+  border-radius: 10px;
+  transform: rotate(45deg);
+}
+
+.my-projects .square-2 {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+
+  width: 50px;
+  height: 50px;
+
+  background: rgb(14, 46, 86);
+  background: linear-gradient(90deg, rgba(14, 46, 86, 1) 20%, rgba(8, 246, 255, 1) 50%, rgba(8, 141, 223, 1) 80%);
+
+  z-index: 1;
+  border-radius: 10px;
+  transform: rotate(45deg);
+}
+
+.my-projects .square-3 {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+
+  width: 50px;
+  height: 50px;
+
+  background: rgb(8, 246, 255);
+  background: linear-gradient(90deg, rgba(8, 246, 255, 1) 16%, rgba(8, 168, 255, 1) 50%, rgba(0, 0, 0, 1) 79%);
+
+  z-index: 1;
+  border-radius: 10px;
+  transform: rotate(45deg);
+}
+
+/**********************************************/

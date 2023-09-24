@@ -17,7 +17,7 @@ header {
   transform: translateY(-50%);
 }
 
-.introduce>* {
+.introduce > * {
   flex: 1 1 50%;
 }
 
@@ -31,6 +31,10 @@ header {
   margin-bottom: 1rem;
   font-size: 1.3rem;
   text-align: center;
+}
+
+.introduce span {
+  color: #0966b1;
 }
 
 .introduce .about-me {
@@ -48,7 +52,7 @@ header {
 
 /* Icons */
 .introduce .tech-lang-wrapper {
-  margin-top: 5rem;
+  margin-top: 10rem;
   color: var(--general-text);
 }
 
