@@ -1,105 +1,88 @@
-/* MyProjects */
-/* .my-projects {
-  background-color: #0966b1;
-} */
+/* Web projects wrapper */
+.web-projects-wrapper {
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+/* title */
+.my-projects .title {
+  margin: 0 auto 5rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
 
 /**********************************************/
 
-/* Web projects wrapper */
-.my-projects .title {
-  margin: 0 auto;
-  text-align: center;
-  margin-bottom: 5rem;
+/* cards */
+.my-projects .vympy-art-card,
+.my-projects .pod-tlakem-card,
+.my-projects .dice-game-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+
+  padding: 2rem;
+  margin-bottom: 10rem;
+
+  border-radius: 15px;
+  box-shadow: 1px 1px 15px black;
 }
 
-.my-projects h3 {
-  margin-bottom: 2rem;
+.my-projects .dice-game-card {
+  margin-bottom: 0;
 }
 
-/* .my-projects .vympy-art-bg {
-  padding: 2rem 0 1rem;
-  margin-bottom: 2rem;
+.my-projects .vympy-art-img,
+.my-projects .pod-tlakem-img,
+.my-projects .dice-game-img {
+  max-width: 13rem;
+  vertical-align: middle;
+  border-radius: 15px;
+  ;
 }
 
-.my-projects .pod-tlakem-bg {
-  padding: 2rem 0;
-  margin-bottom: 2rem;
-}
-
-.my-projects .dice-game-bg {
-  padding: 5rem 0;
-  margin-bottom: 2rem;
-} */
-
-.my-projects .links {
+.links-demo-code {
   text-align: center;
   padding-top: 1rem;
 }
 
-.my-projects .links a:not(:last-child) {
-  margin-right: 1rem;
-}
-
-.my-projects .vympy-art img,
-.my-projects .pod-tlakem img,
-.my-projects .dice-game img {
-  max-width: 15rem;
+.my-projects .links-demo-code .icon {
+  max-width: 1.6rem;
+  margin-right: .5rem;
   vertical-align: middle;
 }
 
-.my-projects .vympy-art .show-code,
-.my-projects .vympy-art .show-demo,
-.my-projects .pod-tlakem .show-code,
-.my-projects .pod-tlakem .show-demo,
-.my-projects .dice-game .show-code,
-.my-projects .dice-game .show-demo {
-  max-width: 1.5rem;
-  padding-right: .2rem;
+.my-projects .links-demo-code a:not(:last-child) {
+  margin-right: .5rem;
 }
 
-.my-projects .vympy-art,
-.my-projects .pod-tlakem,
-.my-projects .dice-game {
-  display: flex;
-  justify-content: center;
-}
-
+/* description */
 .my-projects .description {
-  position: relative;
-  flex: 1 1 50%;
-  padding: 5rem;
+  font-size: .8rem;
   color: var(--general-text);
+}
+
+.my-projects .description > * {
+  margin-bottom: 1rem;
 }
 
 .my-projects .description span {
   color: #0966b1;
 }
-
-.my-projects .iframe-wrapper {
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.my-projects iframe {
-  height: 25rem;
-  width: 25rem;
-
-  transform: scale(1.04);
-}
-
 /**********************************************/
 
 /* Design squares  */
-.my-projects .square-1 {
+/* .my-projects .square-1 {
   position: absolute;
-  top: 0;
-  left: 1rem;
+  top: -4rem;
+  left: -18rem;
 
   width: 50px;
   height: 50px;
 
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background:  rgba(0, 0, 0, 1);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 16%, rgba(8, 168, 255, 1) 50%, rgba(8, 246, 255, 1) 79%);
 
   z-index: 1;
   border-radius: 10px;
@@ -108,14 +91,14 @@
 
 .my-projects .square-2 {
   position: absolute;
-  top: 0;
-  left: 1rem;
+  top: -4rem;
+  left: -18rem;
 
   width: 50px;
   height: 50px;
 
-  background: rgb(14, 46, 86);
-  background: linear-gradient(90deg, rgba(14, 46, 86, 1) 20%, rgba(8, 246, 255, 1) 50%, rgba(8, 141, 223, 1) 80%);
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(153,5,5,1) 35%, rgba(255,81,0,1) 65%, rgb(251, 255, 5) 90%); 
 
   z-index: 1;
   border-radius: 10px;
@@ -124,8 +107,8 @@
 
 .my-projects .square-3 {
   position: absolute;
-  top: 0;
-  left: 1rem;
+  top: -4rem;
+  left: -18rem;
 
   width: 50px;
   height: 50px;
@@ -136,6 +119,6 @@
   z-index: 1;
   border-radius: 10px;
   transform: rotate(45deg);
-}
+} */
 
 /**********************************************/
