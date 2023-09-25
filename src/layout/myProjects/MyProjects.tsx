@@ -2,18 +2,20 @@ import "./myProjects.css"
 import VympyArt from "../../images/VympyArt.png"
 import EyE from "../../icons/icons8-show-50.png"
 import GitHub from "../../icons/icons8-github-50.png"
+import Project from "../../icons/icons8-project-64.png"
 
 function MyProjects() {
   return (
     <div className="my-projects container">
       <div className="title">
-        <h3>Projekty</h3>
+        <img className="title-icon" src={Project} alt="Malý sešítek" />
+        <h3>Mé projekty</h3>
       </div>
 
       <div className="web-projects-wrapper">
         <div className="vympy-art-card">
           <div className="img-links">
-            <img className="vympy-art-img" src={VympyArt} alt="Obrázek webové stránky" />
+            <img className="vympy-art-img" src={VympyArt} alt="Náhled webové stránky" />
 
             <div className="links-demo-code">
               <a href="http://vympyart.havelka.dev-null.xyz/">
