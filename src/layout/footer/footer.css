@@ -1,4 +1,38 @@
+/* Footer */
 footer {
   background-color: black;
   color: white;
+  padding: 2rem 0;
+  font-size: .9rem;
+  border-top: 1px solid var(--general-text);
 }
+
+footer .footer-wrapper {
+  text-align: center;
+}
+
+footer .footer-wrapper > * {
+  margin-bottom: .5rem;
+}
+
+footer .github {
+  margin-right: .3rem;
+}
+
+footer .contact-email,
+footer .contact-mobile {
+  display: block;
+}
+
+footer .text-icons,
+footer .link-icons {
+  display: inline;
+  font-size: .7rem;
+}
+
+footer .icon {
+  color: white;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+/**********************************************/
