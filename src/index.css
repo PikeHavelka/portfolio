@@ -21,16 +21,16 @@ body {
 
 [data-theme="dark"] {
   --general-text: white;
-  --light-theme-bg: #140f0b;
+  --light-theme-bg: black;
   --navbar-title-text: white;
   --general-design-color: #08a8ff;
 }
 
 [data-theme="light"] {
   --general-design-color: #08a8ff;
-  --general-text: #140f0b;
+  --general-text: black;
   --light-theme-bg: rgba(255, 255, 255, 0.877);
-  --navbar-title-text: #140f0b;
+  --navbar-title-text: black;
 }
 
 h1, h2, h3 {

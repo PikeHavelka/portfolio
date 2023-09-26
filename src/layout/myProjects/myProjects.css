@@ -9,6 +9,7 @@
   margin-bottom: 3rem;
   text-align: center;
   font-size: 1.3rem;
+  color: var(--general-text);
 
   display: flex;
   justify-content: center;
@@ -17,7 +18,7 @@
 }
 
 .my-projects .title-icon {
-  max-width: 2.2rem;
+  font-size: 2.2rem;
 }
 /**********************************************/
 
@@ -34,11 +35,7 @@
   margin-bottom: 10rem;
 
   border-radius: 15px;
-  box-shadow: 1px 1px 15px black;
-}
-
-.my-projects .dice-game-card {
-  margin-bottom: 0;
+  box-shadow: 1px 1px 15px var(--general-text);
 }
 
 .my-projects .vympy-art-img,
@@ -54,8 +51,12 @@
   padding-top: 1rem;
 }
 
+.links-demo-code a {
+  color: #0966b1;
+}
 .my-projects .links-demo-code .icon {
-  max-width: 1.6rem;
+  font-size: 1.5rem;
+  color: var(--general-text);
   margin-right: .5rem;
   vertical-align: middle;
 }

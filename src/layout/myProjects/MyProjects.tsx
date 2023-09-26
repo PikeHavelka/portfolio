@@ -1,14 +1,13 @@
 import "./myProjects.css"
 import VympyArt from "../../images/VympyArt.png"
-import EyE from "../../icons/icons8-show-50.png"
-import GitHub from "../../icons/icons8-github-50.png"
-import Project from "../../icons/icons8-project-64.png"
+import { FaEye, FaGithub } from "react-icons/fa"
+import { AiOutlineFundProjectionScreen } from "react-icons/ai"
 
 function MyProjects() {
   return (
     <div className="my-projects container">
       <div className="title">
-        <img className="title-icon" src={Project} alt="Malý sešítek" />
+        <AiOutlineFundProjectionScreen className="title-icon" />
         <h3>Mé projekty</h3>
       </div>
 
@@ -19,12 +18,12 @@ function MyProjects() {
 
             <div className="links-demo-code">
               <a href="http://vympyart.havelka.dev-null.xyz/">
-                <img className="show-demo icon" src={EyE} alt="Přejde na demonstraci stránky" />
+                <FaEye className="show-web icon" />
                 Demo
               </a>
 
               <a href="https://github.com/PikeHavelka/VympyArt">
-                <img className="show-code icon" src={GitHub} alt="Přejde na GitHub s kódem stránky" />
+                <FaGithub className="show-code icon" />
                 Code
               </a>
             </div>
@@ -41,16 +40,16 @@ function MyProjects() {
 
         <div className="pod-tlakem-card">
           <div className="img-links">
-            <img className="pod-tlakem-img" src={VympyArt} alt="Obrázek webové stránky" />
+            <img className="pod-tlakem-img" src={VympyArt} alt="Náhled webové stránky" />
 
             <div className="links-demo-code">
               <a href="http://vympyart.havelka.dev-null.xyz/">
-                <img className="show-demo icon" src={EyE} alt="Přejde na demonstraci stránky" />
+                <FaEye className="show-web icon" />
                 Demo
               </a>
 
               <a href="https://github.com/PikeHavelka/VympyArt">
-                <img className="show-code icon" src={GitHub} alt="Přejde na GitHub s kódem stránky" />
+                <FaGithub className="show-code icon" />
                 Code
               </a>
             </div>
@@ -67,16 +66,16 @@ function MyProjects() {
 
         <div className="dice-game-card">
           <div className="img-links">
-            <img className="dice-game-img" src={VympyArt} alt="Obrázek webové stránky" />
+            <img className="dice-game-img" src={VympyArt} alt="Náhled webové stránky" />
 
             <div className="links-demo-code">
               <a href="http://vympyart.havelka.dev-null.xyz/">
-                <img className="show-demo icon" src={EyE} alt="Přejde na demonstraci stránky" />
+                <FaEye className="show-web icon" />
                 Demo
               </a>
 
               <a href="https://github.com/PikeHavelka/VympyArt">
-                <img className="show-code icon" src={GitHub} alt="Přejde na GitHub s kódem stránky" />
+                <FaGithub className="show-code icon" />
                 Code
               </a>
             </div>
