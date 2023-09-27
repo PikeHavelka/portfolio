@@ -8,7 +8,7 @@ function Footer() {
       <div className="container footer-wrapper">
         <div className="title">
           <h1>Pavel Havelka</h1>
-          <h2>Portfólio</h2>
+          <h2>portfólio</h2>
         </div>
 
         <div className="social-icons">

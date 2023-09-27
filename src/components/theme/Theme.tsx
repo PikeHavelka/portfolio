@@ -24,6 +24,7 @@ function Theme() {
     }
   }
   /**********************************************/
+  
   // Remember theme
   useEffect(() => {
     if (localStorage.getItem("data-theme") === "dark") {

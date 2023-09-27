@@ -32,9 +32,11 @@ function MyProjects() {
           <div className="description">
             <h3>Vympy <span>Art</span></h3>
 
-            <p>Jeden z mých prvních projektů. Stránka pro mého kamaráda, který se rád zabívá grafickou kresbou.</p>
+            <p>Zde je projekt, který si vyžádal můj kamarád. Zajímá se o grafický design.</p>
 
-            <p>Na stránce se opakují obrázky a gify z důvodu malého množství vytvořených projektů. Opakující se obrázky slouží zatím pouze pro představu.</p>
+            <p>Opakují se zde obrázky a gify. Je to z důvodu nedostatku použitelného materiálu a slouží tak zatím pouze jako demonstrace.</p>
+
+            <p>Stránka je vytvořena v nativní Javascriptu a v CSS. V blízké budoucnosti tento projekt bude vytvořen v Reactu, Typescriptu a SCSS.</p>
           </div>
         </div>
 
@@ -56,11 +58,11 @@ function MyProjects() {
           </div>
 
           <div className="description">
-            <h3>Vympy <span>Art</span></h3>
+            <h3>Pod-<span>Tlakem</span></h3>
 
-            <p>Jeden z mých prvních projektů. Stránka pro mého kamaráda, který se rád zabívá grafickou kresbou.</p>
+            <p>Projekt opět na vyžádání přítele, který začíná podnikat a nabízí služby zaměřené na výškové práce.</p>
 
-            <p>Na stránce se opakují obrázky a gify z důvodu malého množství vytvořených projektů. Opakující se obrázky slouží zatím pouze pro představu.</p>
+            <p>Zde byly použity jazyky jako jsou React, Typescript, SCSS a samozřejmě HTML.</p>
           </div>
         </div>
 
@@ -82,11 +84,13 @@ function MyProjects() {
           </div>
 
           <div className="description">
-            <h3>Vympy <span>Art</span></h3>
+            <h3>Dice<span>Game</span></h3>
 
-            <p>Jeden z mých prvních projektů. Stránka pro mého kamaráda, který se rád zabívá grafickou kresbou.</p>
+            <p>Dice Game je hra, která byla vytvořena pouze pro zábavu. Jedná se o hru ve webovém prohlížeči pro dva hráče.</p>
 
-            <p>Na stránce se opakují obrázky a gify z důvodu malého množství vytvořených projektů. Opakující se obrázky slouží zatím pouze pro představu.</p>
+            <p>V jejím kódu se nachází klasický Javascript, Typescript, CSS a HTML.</p>
+
+            <p><span>NÁVOD:</span> Hra začíná tahem hráče jedna (vlevo). Hráč 1 začíná tak, že klikne na políčko hodit kostkou. Ve čtverci se začně "otáčet" kostka a její výsledek se přičte do současného skóre. Hráč 1 může stále pokračovat v hodu kostkou do té doby, dokud nepodrží skóre nebo nehodí hodnotu 1. To se poté přičte k celkovému skóre a nemůže tak o své body přijít. Padne-li hodnota 1 dříve než skóre podrží, o body hráč přichází a je na řadě hráč 2.</p>
           </div>
         </div>
       </div>
