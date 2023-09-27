@@ -2,6 +2,7 @@
 nav {
   position: fixed;
   background-color: var(--light-theme-bg);
+  border-bottom: 1px solid var(--general-text);
 
   height: 2.5rem;
   min-width: 100%;

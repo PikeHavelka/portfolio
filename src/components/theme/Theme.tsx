@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
 
 function Theme() {
   // Theme mode detect on your device
-  const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)");
+  const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)")
 
   // UState - Change class on btn (hide/show)
   const [isDark, setIsDark] = useState(false)
