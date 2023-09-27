@@ -4,6 +4,8 @@ import { LiaSun } from 'react-icons/lia'
 import { useState, useEffect } from "react"
 
 function Theme() {
+  // Theme mode detect on your device
+  const prefersDarkMode = window.matchMedia("(prefers-color-scheme: dark)");
 
   // UState - Change class on btn (hide/show)
   const [isDark, setIsDark] = useState(false)
@@ -15,23 +17,26 @@ function Theme() {
       body?.setAttribute("data-theme", "dark")
       setIsDark(true)
       localStorage.setItem('data-theme', 'dark')
-    }
-    else {
+    } else {
       body?.setAttribute("data-theme", "light")
       setIsDark(false)
       localStorage.setItem('data-theme', 'light')
     }
   }
   /**********************************************/
-
   // Remember theme
   useEffect(() => {
     if (localStorage.getItem("data-theme") === "dark") {
       body?.setAttribute("data-theme", "dark")
       setIsDark(true)
-    } else {
+    } else if (localStorage.getItem("data-theme") === "light") {
       body?.setAttribute("data-theme", "light")
       setIsDark(false)
+    } else if (prefersDarkMode.matches === true) {
+      body?.setAttribute("data-theme", "dark")
+      setIsDark(true)
+    } else {
+      return
     }
   }, [])
   /**********************************************/
