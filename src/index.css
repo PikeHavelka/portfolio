@@ -20,18 +20,12 @@ body {
   background-color: var(--light-theme-bg);
 }
 
-/* .color1 {color: #140f0b;}
-.color2 {color: #0e2e56;}
-.color3 {color: #0966b1;}
-.color4 {color: #08a8ff;}
-.color5 {color: #08f6ff;} */
-
 [data-theme="dark"] {
   --general-text: rgba(235, 235, 235);
   --light-theme-bg: rgba(0, 0, 0, 0.9);
   --navbar-title-text: rgba(235, 235, 235);
   --general-design-color: #08a8ff;
-  --navbar-bg: black;
+  --navbar-bg: #02001b;
 }
 
 [data-theme="light"] {

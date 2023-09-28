@@ -10,8 +10,12 @@ section.about-me h1 {
   margin-bottom: 2rem;
 }
 
-section.about-me p {
+section.about-me .text {
   border: 1px solid var(--general-text);
   padding: 2rem;
+}
+
+section.about-me a {
+  color: var(--general-design-color);
 }
 /**********************************************/

@@ -5,7 +5,17 @@ function AboutMe() {
     <section className="about-me container" id="o-mne">
       <h1>O mně</h1>
 
-      <p>Počítače mne doprovázeli už od dětství. Dříve jsem je využíval především pro zábavu. Postupem času jsem začal zjišťovat, že se dají využít i na něco zajímavějšího. Tvorba videí v programech jako je Sony Vegas nebo Kdenlive. Zajímal jsem se také o animace ve vektorové grafice v programu Adobe Animate CC. Postupem času jsem měl ve své blízkosti hodně přátel, kteří se zajímají o programovací jazyky. To vedlo k tomu, že jsem se něco málo začal učit i já. Teď je tomu více než rok, kdy se intenzivně zajímám o jazyky využívané pro frontend. Můj zájem byl doposud pouze pro moje vlastní účely, tvorba projektů pro zábavu a pro přátele. Nyní bych své zkušenosti rád posunul dále.</p>
+    <div className="text">
+      <p>Více než rok se intenzivně zajímám o jazyky určené k frontend vývoji. Jako první značkovací jazyk, který jsem se učil bylo HTML, následně CSS a postupem času se k nim přidal programovací jazyk Javascript. Abych více rozvinul své zkušenosti začal jsem se zajímat o framework React a preprocesor SCSS. Poté přišel na řádu i Typescript.</p>
+
+      <br />
+
+      <p>Zatím své zkušenosti využívám pouze pro vlastní účely. Mám za sebou velmi jednoduché weby, díky kterým jsem se dopracoval k těm složitějším. Mé větší projekty můžete nalézt <a href="https://github.com/PikeHavelka">zde</a>.</p>
+
+      <br />
+      
+      <p>V rozvoji svých zkušeností se plánuji nadále zdokonalovat. A rád bych měl aspoň základní znalosti s backend vývojem.</p>
+    </div>
     </section>
   )
 }
