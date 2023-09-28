@@ -1,7 +1,7 @@
 /* Navigation */
 nav {
   position: fixed;
-  background-color: var(--light-theme-bg);
+  background-color: var(--navbar-bg);
   border-bottom: 1px solid var(--general-text);
 
   height: 2.5rem;

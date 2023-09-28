@@ -5,7 +5,7 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai"
 
 function MyProjects() {
   return (
-    <div className="my-projects container">
+    <div className="my-projects container" id="me-projekty">
       <div className="title">
         <AiOutlineFundProjectionScreen className="title-icon" />
         <h3>Mé projekty</h3>

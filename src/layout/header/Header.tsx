@@ -4,7 +4,7 @@ import Navbar from "../navbar/Navbar"
 
 function Header() {
   return (
-    <header>
+    <header id="uvod">
       <Navbar />
 
       <div className="introduce container">

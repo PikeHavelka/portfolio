@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md"
 
 function Footer() {
   return (
-    <footer>
+    <footer id="kontakt">
       <div className="container footer-wrapper">
         <div className="title">
           <h1>Pavel Havelka</h1>
