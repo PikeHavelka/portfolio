@@ -10,16 +10,31 @@ nav {
   z-index: 10;
 }
 
+nav .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+}
+
+nav .home .icon {
+  vertical-align: middle;
+  font-size: 1.5rem;
+  color: var(--navbar-title-text);
+}
+
+nav .home {
+  padding: 0;
+}
+
 nav ul {
   display: flex;
+  justify-content: center;
   gap: 3.5rem;
 
   line-height: 2.5rem;
   list-style: none;
-}
-
-nav ul li:first-child {
-  margin-right: auto;
 }
 
 nav ul li a {
@@ -37,18 +52,98 @@ nav ul li:hover:not(:last-child):after {
   width: 100%;
 }
 
-nav ul li:not(:last-child, :first-child)::after {
+nav ul li:not(:last-child)::after {
   content: "";
   position: absolute;
-  
+
   left: 0;
   bottom: 7px;
-  
+
   width: 0%;
   height: 2px;
-  
+
   background-color: var(--general-design-color);
-  
+
   transition: 250ms linear;
 }
 /**********************************************/
+
+/* Hamburger menu */
+nav .hamburger-menu {
+  display: none;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+
+nav .hamburger-menu>*:not(:last-child) {
+  margin-bottom: .2rem
+}
+
+nav .hamburger-menu .line {
+  content: "";
+
+  background-color: var(--general-text);
+
+  height: 3px;
+  width: 25px;
+}
+
+nav .cross-burger .top {
+  transform: rotate(45deg);
+  translate: -2px 5px;
+}
+
+nav .cross-burger .middle {
+  opacity: 0;
+}
+
+nav .cross-burger .bottom {
+  transform: rotate(-45deg);
+  translate: -2px -7px;
+}
+/**********************************************/
+
+/* Mediay Query */
+@media (max-width: 725px) {
+  nav .hamburger-menu {
+    display: inline;
+  }
+
+  nav .nav-wrapper {
+    justify-content: space-evenly;
+  }
+
+  nav ul {
+    position: absolute;
+    flex-direction: column;
+    gap: .5rem;
+
+    text-align: center;
+    line-height: 1.5rem;
+    list-style: none;
+
+    background-color: var(--navbar-bg);
+    border: 1px solid var(--general-text);
+
+    width: 15rem;
+    
+    margin-top: 15rem;
+    padding: 1rem 0;
+  }
+
+  nav ul li:not(:last-child)::after {
+    display: none;
+  }
+
+  nav .hide-nav {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  nav .show-nav {
+    opacity: 1;
+  }
+}

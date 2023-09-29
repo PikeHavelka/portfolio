@@ -6,24 +6,22 @@ header {
 
 /* Introduce */
 .introduce {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-
+  display: grid;
+  grid-template-areas: "a b"
+                       "c c";
+  place-items: center;
+  
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.introduce > * {
-  flex: 1 1 50%;
 }
 
 .introduce .text-wrapper {
   max-width: 25rem;
   border-left: 5px solid var(--general-design-color);
   color: var(--navbar-title-text);
+
+  grid-area: a;
 }
 
 .introduce .title {
@@ -41,10 +39,12 @@ header {
 }
 
 .introduce .my-image {
-  max-width: 350px;
+  max-width: clamp(10rem, 30vw, 20rem);
   border-radius: 34% 66% 69% 31% / 30% 30% 70% 70%;
   background-color: white;
   box-shadow: 1px 1px 10px var(--general-text);
+
+  grid-area: b;
 }
 /**********************************************/
 
@@ -52,6 +52,15 @@ header {
 .introduce .tech-lang-wrapper {
   margin-top: 10rem;
   color: var(--general-text);
+
+  grid-area: c;
+}
+
+.introduce .tech-lang-wrapper .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5rem;
 }
 
 .introduce .icons-title {
@@ -61,12 +70,7 @@ header {
   margin-bottom: 1rem;
 }
 
-.introduce .icons {
-  text-align: center;
-}
-
 .introduce .icons .icon {
-  margin-right: 4.5rem;
   vertical-align: middle;
 }
 
@@ -122,3 +126,23 @@ header {
   }
 }
 /**********************************************/
+
+/* Media Query */
+@media (max-width: 765px) {
+  .introduce {
+    grid-template-areas: "a"
+                         "b"
+                         "c";
+    gap: 3.5rem;
+    place-items: center;
+  }
+
+  .introduce .tech-lang-wrapper {
+    margin-top: 02rem;
+  }
+
+  .introduce .tech-lang-wrapper .icons {
+    gap: 2rem;
+  }
+  
+}
