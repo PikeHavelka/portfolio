@@ -26,7 +26,7 @@ header {
 
 .introduce .title {
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: clamp(.9rem, 5vw, 1.3rem);
   text-align: center;
 }
 
@@ -52,6 +52,7 @@ header {
 .introduce .tech-lang-wrapper {
   margin-top: 10rem;
   color: var(--general-text);
+  text-align: center;
 
   grid-area: c;
 }
@@ -60,6 +61,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+
   gap: 4.5rem;
 }
 
@@ -138,11 +141,10 @@ header {
   }
 
   .introduce .tech-lang-wrapper {
-    margin-top: 02rem;
+    margin-top: 2rem;
   }
 
   .introduce .tech-lang-wrapper .icons {
     gap: 2rem;
   }
-  
 }
