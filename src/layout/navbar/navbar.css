@@ -12,8 +12,10 @@ nav {
 
 nav .nav-wrapper {
   display: flex;
+    display: -ms-flex;
   justify-content: space-between;
   align-items: center;
+    -webkit-align-items: center;
 
   height: 100%;
 }
@@ -30,6 +32,7 @@ nav .home {
 
 nav ul {
   display: flex;
+    display: -ms-flex;
   justify-content: center;
   gap: 3.5rem;
 
@@ -93,6 +96,10 @@ nav .hamburger-menu .line {
 
 nav .cross-burger .top {
   transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    
   translate: -2px 5px;
 }
 
@@ -102,6 +109,10 @@ nav .cross-burger .middle {
 
 nav .cross-burger .bottom {
   transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+
   translate: -2px -7px;
 }
 /**********************************************/
@@ -119,6 +130,9 @@ nav .cross-burger .bottom {
   nav ul {
     position: absolute;
     flex-direction: column;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
     gap: .5rem;
 
     text-align: center;

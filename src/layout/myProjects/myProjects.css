@@ -12,14 +12,17 @@
   color: var(--general-text);
 
   display: flex;
+    display: -ms-flex;
   justify-content: center;
   align-items: center;
+    -webkit-align-items: center;
   gap: 1rem;
 }
 
 .my-projects .title-icon {
   font-size: 2.2rem;
 }
+
 /**********************************************/
 
 /* cards */
@@ -27,8 +30,10 @@
 .my-projects .pod-tlakem-card,
 .my-projects .dice-game-card {
   display: flex;
+    display: -ms-flex;
   justify-content: center;
   align-items: center;
+    -webkit-align-items: center;
   gap: 3.5rem;
 
   padding: 2rem;
@@ -54,6 +59,7 @@
 .links-demo-code a {
   color: #0966b1;
 }
+
 .my-projects .links-demo-code .icon {
   font-size: 1.5rem;
   color: var(--general-text);
@@ -75,11 +81,27 @@
   font-size: 1.2rem;
 }
 
-.my-projects .description > * {
+.my-projects .description>* {
   margin-bottom: 1rem;
 }
 
 .my-projects .description span {
   color: #0966b1;
 }
+
 /**********************************************/
+
+/* Media Query */
+@media (max-width: 650px) {
+  .my-projects .vympy-art-card,
+  .my-projects .pod-tlakem-card,
+  .my-projects .dice-game-card {
+    flex-direction: column;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+    gap: 3.5rem;
+
+    text-align: center;
+  }
+}

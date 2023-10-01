@@ -7,6 +7,7 @@ header {
 /* Introduce */
 .introduce {
   display: grid;
+    display: -ms-grid;
   grid-template-areas: "a b"
                        "c c";
   place-items: center;
@@ -59,9 +60,12 @@ header {
 
 .introduce .tech-lang-wrapper .icons {
   display: flex;
+    display: -ms-flex;
   justify-content: center;
   align-items: center;
+    -webkit-align-items: center;
   flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 
   gap: 4.5rem;
 }
@@ -85,46 +89,46 @@ header {
 
 /* Animation for icons */
 .rotateIn {
-  -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
-  -webkit-animation-duration: 1s;
+    -webkit-animation-name: rotateIn;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
   animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
 }
 
 @-webkit-keyframes rotateIn {
   0% {
-    -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+      -webkit-transform-origin: center;
     transform: rotate3d(0, 0, 1, -200deg);
+      -webkit-transform: rotate3d(0, 0, 1, -200deg);
     opacity: 0;
   }
 
   100% {
-    -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: none;
+      -webkit-transform-origin: center;
     transform: none;
+      -webkit-transform: none;
     opacity: 1;
   }
 }
 
 @keyframes rotateIn {
   0% {
-    -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+      -webkit-transform-origin: center;
     transform: rotate3d(0, 0, 1, -200deg);
+      -webkit-transform: rotate3d(0, 0, 1, -200deg);
     opacity: 0;
   }
 
   100% {
-    -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: none;
+      -webkit-transform-origin: center;
     transform: none;
+      -webkit-transform: none;
     opacity: 1;
   }
 }
