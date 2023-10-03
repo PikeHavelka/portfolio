@@ -45,12 +45,12 @@ function MyProjects() {
             <img className="pod-tlakem-img" src={VympyArt} alt="Náhled webové stránky" />
 
             <div className="links-demo-code">
-              <a href="http://vympyart.havelka.dev-null.xyz/">
+              <a href="https://podtlakem.havelka.dev-null.xyz/">
                 <FaEye className="show-web icon" />
                 Demo
               </a>
 
-              <a href="https://github.com/PikeHavelka/VympyArt">
+              <a href="https://github.com/PikeHavelka/PodTlakem_0.0.1v">
                 <FaGithub className="show-code icon" />
                 Code
               </a>
@@ -71,12 +71,12 @@ function MyProjects() {
             <img className="dice-game-img" src={VympyArt} alt="Náhled webové stránky" />
 
             <div className="links-demo-code">
-              <a href="http://vympyart.havelka.dev-null.xyz/">
+              <a href="https://dicegame.havelka.dev-null.xyz/">
                 <FaEye className="show-web icon" />
                 Demo
               </a>
 
-              <a href="https://github.com/PikeHavelka/VympyArt">
+              <a href="https://github.com/PikeHavelka/DiceGame">
                 <FaGithub className="show-code icon" />
                 Code
               </a>
