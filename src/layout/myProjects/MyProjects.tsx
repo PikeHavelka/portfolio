@@ -1,5 +1,7 @@
 import "./myProjects.css"
 import VympyArt from "../../images/VympyArt.png"
+import podtlakemImg from "../../images/podtlakemImg.png"
+import diceGameImg from "../../images/diceGameImg.png"
 import { FaEye, FaGithub } from "react-icons/fa"
 import { AiOutlineFundProjectionScreen } from "react-icons/ai"
 
@@ -42,7 +44,7 @@ function MyProjects() {
 
         <div className="pod-tlakem-card">
           <div className="img-links">
-            <img className="pod-tlakem-img" src={VympyArt} alt="Náhled webové stránky" />
+            <img className="pod-tlakem-img" src={podtlakemImg} alt="Náhled webové stránky" />
 
             <div className="links-demo-code">
               <a href="https://podtlakem.havelka.dev-null.xyz/">
@@ -68,7 +70,7 @@ function MyProjects() {
 
         <div className="dice-game-card">
           <div className="img-links">
-            <img className="dice-game-img" src={VympyArt} alt="Náhled webové stránky" />
+            <img className="dice-game-img" src={diceGameImg} alt="Náhled webové stránky" />
 
             <div className="links-demo-code">
               <a href="https://dicegame.havelka.dev-null.xyz/">
