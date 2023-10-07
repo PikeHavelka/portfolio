@@ -1,6 +1,6 @@
 import "./myProjects.css"
 import VympyArt from "../../images/VympyArt.png"
-import podtlakemImg from "../../images/podtlakemImg.png"
+import podTlakemImg from "../../images/podTlakemImg.png"
 import diceGameImg from "../../images/diceGameImg.png"
 import { FaEye, FaGithub } from "react-icons/fa"
 import { AiOutlineFundProjectionScreen } from "react-icons/ai"
@@ -44,7 +44,7 @@ function MyProjects() {
 
         <div className="pod-tlakem-card">
           <div className="img-links">
-            <img className="pod-tlakem-img" src={podtlakemImg} alt="Náhled webové stránky" />
+            <img className="pod-tlakem-img" src={podTlakemImg} alt="Náhled webové stránky" />
 
             <div className="links-demo-code">
               <a href="https://podtlakem.havelka.dev-null.xyz/">

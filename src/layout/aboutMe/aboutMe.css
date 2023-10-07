@@ -1,6 +1,7 @@
 /* About Me */
 section.about-me {
   text-align: center;
+  margin-top: 5rem;
   margin-bottom: 8rem;
   max-width: 35rem;
   color: var(--general-text);
