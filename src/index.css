@@ -25,7 +25,7 @@ body {
   --light-theme-bg: rgba(0, 0, 0, 0.9);
   --navbar-title-text: rgba(235, 235, 235);
   --general-design-color: #08a8ff;
-  --navbar-bg: #02001b;
+  --navbar-bg: rgba(0, 0, 0, 0.9);
   --hamburger-nav-bar-bg: rgba(8, 169, 255, 0.2);
 }
 
