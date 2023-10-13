@@ -12,17 +12,27 @@
   vertical-align: middle;
 }
 
-.theme-icons, .moon-icon, .sun-icon {
+.theme-icons,
+.moon-icon,
+.sun-icon:hover {
+  color: var(--general-design-color);
+}
+
+.theme-icons,
+.moon-icon,
+.sun-icon {
   color: var(--general-text);
 }
 
 .theme-icons .sun-icon {
   font-size: 1.3rem;
 }
+
 /**********************************************/
 
 /* Hide icon when click on theme */
 .theme-icons .hide {
   display: none;
 }
+
 /**********************************************/

@@ -26,6 +26,10 @@ nav .home .icon {
   color: var(--navbar-title-text);
 }
 
+nav .home .icon:hover {
+  color: var(--general-design-color);
+}
+
 nav .home {
   padding: 0;
 }
@@ -141,6 +145,7 @@ nav .cross-burger .bottom {
 
     background-color: var(--navbar-bg);
     border: 1px solid var(--general-text);
+    border-radius: 5px;
 
     width: 15rem;
     
@@ -150,6 +155,10 @@ nav .cross-burger .bottom {
 
   nav ul li:not(:last-child)::after {
     display: none;
+  }
+
+  nav ul a:hover {
+    color: var(--general-design-color);
   }
 
   nav .hide-nav {

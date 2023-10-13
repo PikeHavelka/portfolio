@@ -24,6 +24,10 @@ footer .contact-mobile {
   display: block;
 }
 
+footer a {
+  color: var(--general-design-color);
+}
+
 footer .text-icons,
 footer .link-icons {
   display: inline;

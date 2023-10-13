@@ -1,10 +1,9 @@
 import "./navbar.css"
 import Theme from "../../components/theme/Theme"
 import { AiFillHome } from "react-icons/ai"
-import { useState } from "react"
+import { useState, useRef } from "react"
 
 function Navigation() {
-
   const [showHide, setShowHide] = useState(false)
 
   window.addEventListener("load", function () {

@@ -6,7 +6,7 @@ function AboutMe() {
       <h1>O mně</h1>
 
     <div className="text">
-      <p>Více než rok se intenzivně zajímám o jazyky určené k frontend vývoji. Jako první značkovací jazyk, který jsem se učil bylo HTML, následně CSS a postupem času se k nim přidal programovací jazyk Javascript. Abych více rozvinul své zkušenosti začal jsem se zajímat o framework React a preprocesor SCSS. Poté přišel na řádu i Typescript.</p>
+      <p>Necelé dva roky se intenzivně zajímám o jazyky určené k frontend vývoji. Jako první značkovací jazyk, který jsem se učil bylo HTML, následně CSS a postupem času se k nim přidal programovací jazyk Javascript. Abych více rozvinul své zkušenosti začal jsem se zajímat o framework React a preprocesor SCSS. Poté přišel na řadu i Typescript.</p>
 
       <br />
 
