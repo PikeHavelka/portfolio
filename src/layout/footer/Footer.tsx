@@ -8,7 +8,7 @@ function Footer() {
       <div className="container footer-wrapper">
         <div className="title">
           <h1>Pavel Havelka</h1>
-          <h2>portfólio</h2>
+          <h2>portfolio</h2>
         </div>
 
         <div className="social-icons">
@@ -33,7 +33,7 @@ function Footer() {
           </span>    
         </div>
 
-        <p className="text-icons" >Na této stránce byly použity ikonky ze stránky</p><a className="link-icons" target="_blank" href="https://icons8.com"> Icons8</a>
+        <p className="text-icons" >Na této stránce byly použity ikonky od autora</p><a className="link-icons" target="_blank" href="https://icons8.com"> Icons8</a>
       </div>
     </footer>
   )

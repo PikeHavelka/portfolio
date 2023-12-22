@@ -1,5 +1,5 @@
 import "./header.css"
-import PavelHavelka from "../../images/PavelHavelka.png"
+import PavelHavelka from "../../images/PavelHavelka.jpg"
 import Navbar from "../navbar/Navbar"
 
 function Header() {
@@ -15,7 +15,7 @@ function Header() {
           </div>
 
           <div className="about-me">
-            <p className="text">Ahoj, mé jméno je Pavel a pocházím z Kladna. Zajímám se o frontend technologie se zaměřením na framework React.</p>
+            <p className="text">Ahoj, mé jméno je Pavel a zajímám se o frontend technologie se zaměřením na framework React.</p>
           </div>
         </div>
 
