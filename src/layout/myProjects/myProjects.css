@@ -28,7 +28,7 @@
 /* cards */
 .my-projects .vympy-art-card,
 .my-projects .pod-tlakem-card,
-.my-projects .dice-game-card {
+.my-projects .remodelto {
   display: flex;
     display: -ms-flex;
   justify-content: center;
@@ -95,7 +95,7 @@
 @media (max-width: 650px) {
   .my-projects .vympy-art-card,
   .my-projects .pod-tlakem-card,
-  .my-projects .dice-game-card {
+  .my-projects .remodelto {
     flex-direction: column;
       -webkit-flex-direction: column;
       -moz-flex-direction: column;

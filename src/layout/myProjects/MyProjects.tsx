@@ -1,7 +1,7 @@
 import "./myProjects.css"
 import VympyArt from "../../images/VympyArt.png"
 import podTlakemImg from "../../images/podTlakemImg.png"
-import diceGameImg from "../../images/diceGameImg.png"
+import remodelTOImg from "../../images/remodelTOImg.jpg"
 import { FaEye, FaGithub } from "react-icons/fa"
 import { AiOutlineFundProjectionScreen } from "react-icons/ai"
 
@@ -68,17 +68,17 @@ function MyProjects() {
           </div>
         </div>
 
-        <div className="dice-game-card">
+        <div className="remodelto">
           <div className="img-links">
-            <img className="dice-game-img" src={diceGameImg} alt="Náhled webové stránky" />
+            <img className="dice-game-img" src={remodelTOImg} alt="Náhled webové stránky" />
 
             <div className="links-demo-code">
-              <a href="https://dicegame.havelka.dev-null.xyz/">
+              <a href="https://www.remodelto.cz">
                 <FaEye className="show-web icon" />
                 Demo
               </a>
 
-              <a href="https://github.com/PikeHavelka/DiceGame">
+              <a href="https://github.com/PikeHavelka/remodelTO">
                 <FaGithub className="show-code icon" />
                 Code
               </a>
@@ -86,13 +86,11 @@ function MyProjects() {
           </div>
 
           <div className="description">
-            <h3>Dice<span>Game</span></h3>
+            <h3>Remodel<span>TO</span></h3>
 
-            <p>Dice Game je hra, která byla vytvořena pouze pro zábavu. Jedná se o hru ve webovém prohlížeči pro dva hráče.</p>
+            <p>Dalším projektem je stránka pro stavební firmu. Web je zatím ve vývoji, ale už se nachází ve finální fázi.</p>
 
-            <p>V jejím kódu se nachází klasický Javascript, Typescript, CSS a HTML.</p>
-
-            <p><span>NÁVOD:</span> Hra začíná tahem hráče jedna (vlevo). Hráč 1 začíná tak, že klikne na políčko hodit kostkou. Ve čtverci se začně "otáčet" kostka a její výsledek se přičte do současného skóre. Hráč 1 může stále pokračovat v hodu kostkou do té doby, dokud nepodrží skóre nebo nehodí hodnotu 1. To se poté přičte k celkovému skóre a nemůže tak o své body přijít. Padne-li hodnota 1 dříve než skóre podrží, o body hráč přichází a je na řadě hráč 2.</p>
+            <p>Zde byly použity také jazyky jako jsou React, Typescript, SCSS a HTML.</p>
           </div>
         </div>
       </div>
