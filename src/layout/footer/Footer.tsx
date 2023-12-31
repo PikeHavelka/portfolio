@@ -1,5 +1,5 @@
 import "./footer.css"
-import { FaGithub, FaFacebookSquare, FaMobileAlt } from "react-icons/fa"
+import { FaGithub, FaFacebookSquare, FaMobileAlt, FaLinkedin } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
 
 function Footer() {
@@ -31,6 +31,11 @@ function Footer() {
             <FaMobileAlt className="icon" /> Mobil:
             <a href="tel:732162568"> 732 162 568</a>
           </span>    
+
+          <span className="contact-mobile">
+          <FaLinkedin className="icon" /> LNKD:
+            <a href="https://www.linkedin.com/in/pavel-havelka-2ba577299/"> LinkedIn</a>
+          </span>   
         </div>
 
         <p className="text-icons" >Na této stránce byly použity ikonky od autora</p><a className="link-icons" target="_blank" href="https://icons8.com"> Icons8</a>
