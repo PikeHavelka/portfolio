@@ -1,9 +1,11 @@
 /* Footer */
 footer {
-  background: rgba(0, 0, 0, 0.9);
-  color: white;
   padding: 2rem 0;
+  
   font-size: .9rem;
+  color: white;
+  
+  background: rgba(0, 0, 0, 0.9);
   border-top: 1px solid var(--general-text);
 }
 

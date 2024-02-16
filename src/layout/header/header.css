@@ -1,7 +1,11 @@
 /* Introduce */
+header {
+  background-color: var(--light-theme-bg);
+  padding-bottom: 5rem;
+}
+
 .introduce {
   display: grid;
-    display: -ms-grid;
   grid-template-areas: "a b"
                        "c c";
   place-items: center;
@@ -11,6 +15,7 @@
 
 .introduce .text-wrapper {
   max-width: 25rem;
+  
   border-left: 5px solid var(--general-design-color);
   color: var(--navbar-title-text);
 
@@ -19,6 +24,7 @@
 
 .introduce .title {
   margin-bottom: 1rem;
+
   font-size: clamp(.9rem, 5vw, 1.3rem);
   text-align: center;
 }
@@ -34,8 +40,8 @@
 
 .introduce .my-image {
   max-width: clamp(10rem, 30vw, 20rem);
+
   border-radius: 34% 66% 69% 31% / 30% 30% 70% 70%;
-  background-color: white;
   box-shadow: 1px 1px 10px var(--general-text);
 
   grid-area: b;
@@ -45,6 +51,7 @@
 /* Icons */
 .introduce .tech-lang-wrapper {
   margin-top: 10rem;
+
   color: var(--general-text);
   text-align: center;
 
@@ -53,8 +60,8 @@
 
 .introduce .tech-lang-wrapper .icons {
   display: flex;
-    display: -ms-flex;
   justify-content: center;
+    -webkit-justify-content: center;
   align-items: center;
     -webkit-align-items: center;
   flex-wrap: wrap;
@@ -71,58 +78,6 @@
 
 .introduce .icons .icon {
   vertical-align: middle;
-}
-
-.introduce .icons a > * {
-  animation: rotateIn 1s;
-  cursor: pointer;
-}
-/**********************************************/
-
-/* Animation for icons */
-.rotateIn {
-  animation-name: rotateIn;
-    -webkit-animation-name: rotateIn;
-  animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-  animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-}
-
-@-webkit-keyframes rotateIn {
-  0% {
-    transform-origin: center;
-      -webkit-transform-origin: center;
-    transform: rotate3d(0, 0, 1, -200deg);
-      -webkit-transform: rotate3d(0, 0, 1, -200deg);
-    opacity: 0;
-  }
-
-  100% {
-    transform-origin: center;
-      -webkit-transform-origin: center;
-    transform: none;
-      -webkit-transform: none;
-    opacity: 1;
-  }
-}
-
-@keyframes rotateIn {
-  0% {
-    transform-origin: center;
-      -webkit-transform-origin: center;
-    transform: rotate3d(0, 0, 1, -200deg);
-      -webkit-transform: rotate3d(0, 0, 1, -200deg);
-    opacity: 0;
-  }
-
-  100% {
-    transform-origin: center;
-      -webkit-transform-origin: center;
-    transform: none;
-      -webkit-transform: none;
-    opacity: 1;
-  }
 }
 /**********************************************/
 

@@ -21,21 +21,25 @@ body {
 }
 
 [data-theme="dark"] {
-  --general-text: rgba(235, 235, 235);
-  --light-theme-bg: rgba(0, 0, 0, 0.9);
-  --navbar-title-text: rgba(235, 235, 235);
+  --general-text: rgba(245, 245, 245);
+  --light-theme-bg: rgba(0, 0, 0, 0.8);
+  --second-light-theme-bg: rgba(0, 0, 0, 0.5);
+  --navbar-title-text: rgba(245, 245, 245);
   --general-design-color: #08a8ff;
-  --navbar-bg: rgba(0, 0, 0, 0.9);
+  --navbar-bg: rgba(0, 0, 0, 0.8);
   --hamburger-nav-bar-bg: rgba(8, 169, 255, 0.2);
+  --background-color: rgba(116, 116, 116, 0.2);
 }
 
 [data-theme="light"] {
   --general-design-color: #08a8ff;
   --general-text: rgba(0, 0, 0, 0.9);
-  --light-theme-bg: rgba(235, 235, 235);
+  --light-theme-bg: white;
+  --second-light-theme-bg: rgba(245, 245, 245);
   --navbar-title-text: black;
   --navbar-bg: white;
   --hamburger-nav-bar-bg: rgba(8, 169, 255, 0.2);
+  --background-color: rgba(116, 116, 116, 0.2);
 }
 
 h1, h2, h3 {

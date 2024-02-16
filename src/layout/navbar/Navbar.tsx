@@ -1,7 +1,7 @@
 import "./navbar.css"
 import Theme from "../../components/theme/Theme"
 import { AiFillHome } from "react-icons/ai"
-import { useState, useRef } from "react"
+import { useState } from "react"
 
 function Navigation() {
   const [showHide, setShowHide] = useState(false)

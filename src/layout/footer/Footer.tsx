@@ -8,17 +8,6 @@ function Footer() {
       <div className="container footer-wrapper">
         <div className="title">
           <h1>Pavel Havelka</h1>
-          <h2>portfolio</h2>
-        </div>
-
-        <div className="social-icons">
-          <a href="https://github.com/PikeHavelka">
-            <FaGithub className="github icon" />
-          </a>
-
-          <a href="https://www.facebook.com/PikeHavelka">
-            <FaFacebookSquare className="icon" />
-          </a>
         </div>
 
         <div className="contact">

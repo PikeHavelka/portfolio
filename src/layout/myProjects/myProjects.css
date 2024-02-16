@@ -1,19 +1,30 @@
 /* Web projects wrapper */
+.my-projects {
+  background-color: var(--light-theme-bg);
+  padding-block: 5rem;
+}
+
 .web-projects-wrapper {
-  max-width: 45rem;
-  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+    -webkit-justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+  margin-bottom: 2rem;
 }
 
 /* title */
 .my-projects .title {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+
   text-align: center;
   font-size: 1.3rem;
   color: var(--general-text);
 
   display: flex;
-    display: -ms-flex;
   justify-content: center;
+    -webkit-justify-content: center;
   align-items: center;
     -webkit-align-items: center;
   gap: 1rem;
@@ -28,30 +39,32 @@
 /* cards */
 .my-projects .vympy-art-card,
 .my-projects .pod-tlakem-card,
-.my-projects .remodelto {
+.my-projects .remodelto,
+.my-projects .zlute-leseni {
   display: flex;
-    display: -ms-flex;
   justify-content: center;
+    -webkit-justify-content: center;
   align-items: center;
     -webkit-align-items: center;
   gap: 3.5rem;
 
   padding: 2rem;
-  margin-bottom: 10rem;
-
-  border-radius: 15px;
+  background-color: var(--second-light-theme-bg);
   box-shadow: 1px 1px 15px var(--general-text);
 }
 
 .my-projects .vympy-art-img,
 .my-projects .pod-tlakem-img,
-.my-projects .dice-game-img {
-  max-width: 13rem;
+.my-projects .remodelto-img,
+.my-projects .zlute-leseni-img {
+  width: clamp(4rem, 14vw, 8rem);
   vertical-align: middle;
   border-radius: 15px;
 }
 
 .links-demo-code {
+  display: flex;
+
   text-align: center;
   padding-top: 1rem;
 }
@@ -63,8 +76,9 @@
 .my-projects .links-demo-code .icon {
   font-size: 1.5rem;
   color: var(--general-text);
-  margin-right: .5rem;
   vertical-align: middle;
+
+  margin-right: .5rem;
 }
 
 .my-projects .links-demo-code a:not(:last-child) {
@@ -92,15 +106,22 @@
 /**********************************************/
 
 /* Media Query */
+@media (max-width: 1000px) {
+  .web-projects-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 650px) {
   .my-projects .vympy-art-card,
   .my-projects .pod-tlakem-card,
-  .my-projects .remodelto {
+  .my-projects .remodelto,
+  .my-projects .zlute-leseni {
     flex-direction: column;
       -webkit-flex-direction: column;
       -moz-flex-direction: column;
       -ms-flex-direction: column;
-    gap: 3.5rem;
+    gap: 1.5rem;
 
     text-align: center;
   }

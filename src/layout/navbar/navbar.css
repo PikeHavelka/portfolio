@@ -1,6 +1,7 @@
 /* Navigation */
 nav {
   position: fixed;
+
   background-color: var(--navbar-bg);
   border-bottom: 1px solid var(--general-text);
 
@@ -12,8 +13,8 @@ nav {
 
 nav .nav-wrapper {
   display: flex;
-    display: -ms-flex;
   justify-content: space-between;
+    -webkit-justify-content: space-between;
   align-items: center;
     -webkit-align-items: center;
 
@@ -36,8 +37,8 @@ nav .home {
 
 nav ul {
   display: flex;
-    display: -ms-flex;
   justify-content: center;
+    -webkit-justify-content: center;
   gap: 3.5rem;
 
   line-height: 2.5rem;
@@ -72,6 +73,8 @@ nav ul li:not(:last-child)::after {
   background-color: var(--general-design-color);
 
   transition: 250ms linear;
+  -webkit-transition: 250ms linear;
+  -o-transition: 250ms linear;
 }
 /**********************************************/
 
@@ -133,6 +136,7 @@ nav .cross-burger .bottom {
 
   nav ul {
     position: absolute;
+    
     flex-direction: column;
       -webkit-flex-direction: column;
       -moz-flex-direction: column;

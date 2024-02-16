@@ -1,22 +1,86 @@
 /* About Me */
-section.about-me {
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 8rem;
-  max-width: 35rem;
+.about-me-section {
   color: var(--general-text);
+  background-color: var(--second-light-theme-bg);
+
+  padding-block: 5rem;
 }
 
-section.about-me h1 {
+.about-me-section .heading {
+  display: flex;
+  justify-content: center;
+    -webkit-justify-content: center;
+  gap: .5rem;
+}
+
+.about-me-section .heading .info {
+  font-size: 2rem;
+}
+
+.about-me-section h2 {
   margin-bottom: 2rem;
 }
 
-section.about-me .text {
-  border: 1px solid var(--general-text);
-  padding: 2rem;
+.about-me-section .text-container {
+  display: grid;
+  grid-template-areas: "a b"
+                       "c b"
+                       "d d";
+  gap: .5rem;
+
+  text-align: justify;
 }
 
-section.about-me a {
+.about-me-section .text-container .text {
+  padding: 1rem;
+  border: 1px solid var(--general-text);
+  
+  background-color: var(--navbar-bg);
+  color: var(--general-text);
+}
+
+.about-me-section .text-container .grid-box-1 {
+  grid-area: a;
+}
+
+.about-me-section .text-container .grid-box-2 {
+  grid-area: b;
+}
+
+.about-me-section .text-container .grid-box-3 {
+  grid-area: c;
+}
+
+.about-me-section .text-container .grid-box-4 {
+  grid-area: d;
+}
+
+.about-me-section .text-container .text a {
   color: var(--general-design-color);
 }
-/**********************************************/
+
+.about-me-section .text-container .text h3 {
+  margin-bottom: .5rem;
+  color: var(--general-design-color);
+}
+
+.about-me-section .text-container p::before {
+  content: "► ";
+}
+
+@media (max-width: 700px) {
+  .about-me-section .text-container {
+    grid-template-areas: "a c"
+                         "b b"
+                         "d d";
+  }
+}
+
+@media (max-width: 590px) {
+  .about-me-section .text-container {
+    grid-template-areas: "a"
+                         "b"
+                         "d"
+                         "c";
+  }
+}
