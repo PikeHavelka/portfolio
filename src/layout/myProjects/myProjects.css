@@ -48,6 +48,8 @@
     -webkit-align-items: center;
   gap: 3.5rem;
 
+  text-align: justify;
+
   padding: 2rem;
   background-color: var(--second-light-theme-bg);
   box-shadow: 1px 1px 15px var(--general-text);
