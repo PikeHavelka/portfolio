@@ -21,7 +21,7 @@ function AboutMe() {
           <div className="text grid-box-2">
             <h3>Jaké jazyky/programy ke svém práci využívám?</h3>
 
-            <p>Využívám jazyky jako jsou <strong>HTML</strong>, <strong>CSS</strong>, <strong>SASS</strong>, <strong>Javascript</strong>, <strong>Typescript</strong> a <strong>React</strong>, vyjímečně <strong>Tailwind</strong>. Kód píši ve <strong>Visual Studio Code</strong> a obrázky generuji pomocí <strong>AI</strong>. Verzovací systém <strong>Git</strong> spolu s <strong>Git Graphem</strong> nesmí v mém projektu chybět. Také využívám nápomocné weby jako třeba <strong><a href="https://caniuse.com/">Can I Use</a></strong>, <strong><a href="https://tinypng.com/">TinyPNG</a></strong> a další.</p>
+            <p>Využívám jazyky jako jsou <strong>HTML</strong>, <strong>CSS</strong>, <strong>SASS</strong>, <strong>Javascript</strong>, <strong>Typescript</strong> a <strong>React</strong>, vyjímečně <strong>Tailwind</strong>. Kód píši ve <strong>Visual Studio Code</strong> a obrázky generuji pomocí <strong>AI</strong>. Verzovací systém <strong>Git</strong> spolu s <strong>Git Graphem</strong> nesmí v mém projektu chybět.</p>
           </div>
 
 
