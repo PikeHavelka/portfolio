@@ -17,11 +17,10 @@ function AboutMe() {
             <p>Necelé <strong>dva roky</strong> se zajímám o <strong>frontend</strong> vývoj. Rád této tématice <strong>věnuji</strong> svůj <strong>volný čas</strong> a <strong> dobrovolně se vzdělávám</strong>.</p>
           </div>
 
-
           <div className="text grid-box-2">
             <h3>Jaké jazyky/programy ke svém práci využívám?</h3>
 
-            <p>Využívám jazyky jako jsou <strong>HTML</strong>, <strong>CSS</strong>, <strong>SASS</strong>, <strong>Javascript</strong>, <strong>Typescript</strong> a <strong>React</strong>, vyjímečně <strong>Tailwind</strong>. Kód píši ve <strong>Visual Studio Code</strong> a obrázky generuji pomocí <strong>AI</strong>. Verzovací systém <strong>Git</strong> spolu s <strong>Git Graphem</strong> nesmí v mém projektu chybět.</p>
+            <p>Využívám jazyky jako jsou <strong>HTML</strong>, <strong>CSS</strong>, <strong>SASS</strong>, <strong>Javascript</strong>, <strong>Typescript</strong> a <strong>React</strong>, vyjímečně <strong>Tailwind</strong>. Kód píši ve <strong>Visual Studio Code</strong> a obrázky generuji pomocí <strong>AI</strong>. Používám základní funkce verzovacího systému<strong>Git</strong> a pokud se jedná o velmi jednoduchou úpravu fotek, využívám <strong>Photoshop</strong>.</p>
           </div>
 
 
